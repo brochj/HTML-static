@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oscar Broch Jr - Desenvolvimento Web</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="linha">
+            <!-- em cada linha, sempre deve ter 12 colunas (padrao de mercado)-->
+            <header>
+                <div class="coluna col4">
+                    <h1 class="logo">Oscar Broch Jr</h1>
+                </div>
+                <div class="coluna col8">
+                    <nav>
+                        <ul class="menu inline sem-marcador">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="clientes.html">Clientes</a></li>
+                            <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="linha">
+        <section>
+            <div class="coluna col5 sidebar">
+                <h3>Localização</h3>
+                <img src="img/mapa.jpg" alt="" />
+                <ul class="sem-padding sem-marcador">
+                    <li>Rua 1 1453</li>
+                    <li>Bairro Vila Nova</li>
+                    <li>São Paulo - SP</li>
+
+                </ul>
+                <h3>Contato direto</h3>
+                <ul class="sem-padding sem-marcador">
+                    <li>Fone: <strong>(00) 99999-9999</strong></li>
+                    <li>Email: <strong>teste@gmail.com</strong></li>
+                    <li>Skype: <strong>@teste_321</strong></li>
+                </ul>
+            </div>
+
+            <div class="coluna col7 contato">
+                <h2>Envie sua mensagem</h2>
+                <form action="">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" name="nome" id="nome"/>
+                    
+                    <label for="email">Seu email:</label>
+                    <input type="text" name="email" id="email"/>
+                    
+                    <label for="assunto">assunto:</label>
+                    <input type="text" name="assunto" id="assunto"/>
+                    <label for="msg">Mensagem:</label>
+                    <textarea name="msg" id="msg"></textarea>
+                    <input type="submit" value="Enviar mensagem &raquo;" class="botao" name="enviar">
+                </form>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- latest news -->
+    <div class="conteudo-extra">
+        <div class="linha">
+            <div class="coluna col7">
+                <section>
+                    <h2>Método de contato alternativo</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters,</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters,</p>
+                    
+                </section>
+            </div>
+            <div class="coluna col5">
+                <h3>Últimas notícias</h3>
+                <ul class="sem-marcador sem-padding noticias">
+                    <li>
+                        <img src="img/thumb-pequena.jpg" alt="" />
+                        <h4>Título da notícia</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution of letters. <a href="">Leia mais &raquo;</a></p>
+                    </li>
+                    <li>
+                        <img src="img/thumb-pequena.jpg" alt="" />
+                        <h4>Título da notícia</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution of letters. <a href="">Leia mais &raquo;</a></p>
+                    </li>
+                    <li>
+                        <img src="img/thumb-pequena.jpg" alt="" />
+                        <h4>Título da notícia</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                            distribution of letters. <a href="">Leia mais &raquo;</a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="linha">
+            <footer>
+                <div class="coluna col12"></div>
+                <span>&copy; 2019 - Oscar Broch Junior</span>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
